@@ -1,0 +1,118 @@
+div.product-mains {
+    display: block;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+div.product-main {
+    display: flex;
+}
+
+#main-Img {
+    max-height: 298px;
+}
+
+div.product-mains img {
+    width: 100%;
+}
+
+div.thumb {
+    display: flex;
+    margin: 10px;
+}
+
+div.thumb img {
+    width: 100%;
+}
+
+div.thumb > div {
+    display: block;
+    width: 20%;
+    margin: 0 5px;
+}
+
+/* Phần giới thiệu sản phẩm chính */
+.price-product-main {
+    position: relative;
+    max-width: 40%;
+    margin-left: 20px;
+    margin-top: 50px;
+} 
+
+.price-product-main h1 {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.price-product-main span {
+    display: block;
+    color: red;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* nút bấm mua ngay */
+.btn-muaNgay {
+    background-color: var(--primary-color);
+    width: 100px;
+    margin: 20px 0;
+}
+
+.btn-muaNgay a {
+    display: block;
+    color: var(--white-color);
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    
+}
+
+.btn-muaNgay a:hover {
+    text-decoration: none;
+    background-color: #fc997c;
+    color: var(--white-color);
+}
+
+/* Phần khuyến mãi */
+div.KhuyenMai {
+    display: block;
+    max-width: 60%;
+    border: 1px dashed black;
+    border-radius: 2px;
+}
+
+div.KhuyenMai > div {
+    margin: 10px 10px;
+}
+
+div.KhuyenMai h3 {
+    display: block;
+    font-size: 1.8rem;
+    margin: 0 0 10px 10px;
+}
+
+div.KhuyenMai ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+div.KhuyenMai ul > li {
+    display: flex;
+}
+
+div.KhuyenMai ul > li > p {
+    display: block;
+    font-size: 1.6rem;
+    margin: 0 10px;
+}
+
+.KhuyenMai-icon {
+    font-size: 1.4rem;
+    color: rgb(57, 208, 57);
+    margin-top: 5px;
+}

@@ -1,0 +1,67 @@
+:root {
+    --white-color: white;
+    --black-color: #000;
+    --text-color: #333;
+    --nar-color: rgb(37, 37, 37);
+    --main-color: rgb(204, 201, 201);
+    --primary-color: #fe6132;
+}
+
+/* Kế thừa các thẻ chứa nó */
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* Được sử dụng là 1rem = 10px */
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif; /* font chữ mặc định cho toàn trang web */
+    box-sizing: border-box; /* các thẻ trong html đều thuộc vào box-sizing */
+}
+
+/* Độ dài tối đa mà chúng ta sử dụng */
+.grid {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Sử dụng để khi kích thước màn hình thu nhỏ lại thì nó sẽ nhảy xuống dòng các thẻ */
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* khi không còn đủ chiều dài thì khung sẽ nhảy xuống */
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Danh mục text */
+.grid__column-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;   
+}
+
+.grid__column-2-4 {
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 20%;  
+} 
+
+.grid__column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3333%;
+}
